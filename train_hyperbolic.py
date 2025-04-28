@@ -1,6 +1,12 @@
 #coding=utf-8
 import pickle
 import wandb
+import time
+from prepare import *
+from tqdm import tqdm
+import dgl
+
+# dgl要按照这个网站的安装，不要直接pip：https://www.dgl.ai/pages/start.html
 
 from utils import *
 
@@ -57,7 +63,7 @@ for i in node_type:
 
 best_test_auc, test_auc, Z = 0, 0, None
 tic_epoch = time.time()
-for epoch in range(args.epochs):
+for epoch in tqdm(range(args.epochs), desc="Epoch Progress", ncols=100):
 
     optimizer.zero_grad()
     model.train()

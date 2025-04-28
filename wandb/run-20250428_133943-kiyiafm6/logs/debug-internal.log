@@ -1,0 +1,15 @@
+{"time":"2025-04-28T13:39:43.528387645Z","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/root/H3GNN/wandb/run-20250428_133943-kiyiafm6/logs/debug-core.log"}
+{"time":"2025-04-28T13:39:44.479978456Z","level":"INFO","msg":"created new stream","id":"kiyiafm6"}
+{"time":"2025-04-28T13:39:44.480048855Z","level":"INFO","msg":"stream: started","id":"kiyiafm6"}
+{"time":"2025-04-28T13:39:44.480087562Z","level":"INFO","msg":"handler: started","stream_id":"kiyiafm6"}
+{"time":"2025-04-28T13:39:44.480080436Z","level":"INFO","msg":"writer: Do: started","stream_id":"kiyiafm6"}
+{"time":"2025-04-28T13:39:44.480157684Z","level":"INFO","msg":"sender: started","stream_id":"kiyiafm6"}
+{"time":"2025-04-28T13:39:44.966288091Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-28T13:39:46.645060102Z","level":"INFO","msg":"stream: closing","id":"kiyiafm6"}
+{"time":"2025-04-28T13:39:46.645098913Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-28T13:39:46.645170793Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-28T13:39:48.856330623Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-28T13:39:49.555450944Z","level":"INFO","msg":"handler: closed","stream_id":"kiyiafm6"}
+{"time":"2025-04-28T13:39:49.555526053Z","level":"INFO","msg":"sender: closed","stream_id":"kiyiafm6"}
+{"time":"2025-04-28T13:39:49.555509531Z","level":"INFO","msg":"writer: Close: closed","stream_id":"kiyiafm6"}
+{"time":"2025-04-28T13:39:49.555617982Z","level":"INFO","msg":"stream: closed","id":"kiyiafm6"}

@@ -1,0 +1,55 @@
+output/04281426_CHI_poincare_input_dim_64_hidden_dim_256_out_dim_384_multi_head_3+lambda_1_1+lambda_2_2+lambda_3_3_negative_K_4_multi_cuda_0_ablation_study_0_ablation_state_0.txt
+city name:  CHI
+the number of friendship hyperedge in raw dataset is: 18129
+the number of friendship hyperedge used for training is: 14503
+the number of check-in hyperedge is: 185819
+the number of trajectory hyperedge is: 6444
+There are 6444 user nodes in this hypergraph.
+There are 5807 POI nodes in this hypergraph.
+There are 273 POI category nodes in this hypergraph.
+There are 770 time-day nodes in this hypergraph.
+There are 206766 original hyperedges in this hypergraph.
+There are 219414 hyperedges in this hypergraph.
+Among them, 12648 are added self-loop hyperedges.
+/root/miniconda3/envs/myconda/lib/python3.10/site-packages/torch/cuda/__init__.py:654: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+895528
+/root/H3GNN/train_hyperbolic.py:46: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  friend_edge_train_all_label=(torch.tensor( friend_edge_train_all_label, dtype=torch.float32)).to(device2)
+/root/H3GNN/train_hyperbolic.py:62: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  node_attr[i]= torch.tensor(node_attr[i],).to(device)
+Epoch Progress:   0%|                                                     | 0/10000 [00:00<?, ?it/s]/root/H3GNN/manifold/PoincareManifold.py:120: UserWarning: where received a uint8 condition tensor. This behavior is deprecated and will be removed in a future version of PyTorch. Use a boolean condition instead. (Triggered internally at ../aten/src/ATen/native/TensorCompare.cpp:530.)
+  res = torch.where(cond, res_0, res_c)
+Epoch Progress:   0%|                                                     | 0/10000 [00:01<?, ?it/s]
+Traceback (most recent call last):
+  File "/root/H3GNN/train_hyperbolic.py", line 70, in <module>
+    Z, c = model(node_attr)
+  File "/root/miniconda3/envs/myconda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/root/miniconda3/envs/myconda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/root/H3GNN/model_Poincare.py", line 264, in forward
+    X=self.conv_in(X, V, E)
+  File "/root/miniconda3/envs/myconda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/root/miniconda3/envs/myconda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/root/H3GNN/model_Poincare.py", line 176, in forward
+    X_e_1 = (torch.index_select(X, 0, self.E_class_index_1) * self.att_e_visit).sum(-1)
+RuntimeError: NVML_SUCCESS == DriverAPI::get()->nvmlInit_v2_() INTERNAL ASSERT FAILED at "../c10/cuda/CUDACachingAllocator.cpp":806, please report a bug to PyTorch.
+Traceback (most recent call last):
+  File "/root/H3GNN/train_hyperbolic.py", line 70, in <module>
+    Z, c = model(node_attr)
+  File "/root/miniconda3/envs/myconda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/root/miniconda3/envs/myconda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/root/H3GNN/model_Poincare.py", line 264, in forward
+    X=self.conv_in(X, V, E)
+  File "/root/miniconda3/envs/myconda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/root/miniconda3/envs/myconda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/root/H3GNN/model_Poincare.py", line 176, in forward
+    X_e_1 = (torch.index_select(X, 0, self.E_class_index_1) * self.att_e_visit).sum(-1)
+RuntimeError: NVML_SUCCESS == DriverAPI::get()->nvmlInit_v2_() INTERNAL ASSERT FAILED at "../c10/cuda/CUDACachingAllocator.cpp":806, please report a bug to PyTorch.

@@ -1,0 +1,37 @@
+{
+  "os": "Linux-4.19.0-14-amd64-x86_64-with-glibc2.31",
+  "python": "CPython 3.10.12",
+  "startedAt": "2025-04-28T13:39:08.536819Z",
+  "args": [
+    "--city",
+    "CHI",
+    "--manifold_name",
+    "poincare"
+  ],
+  "program": "/root/H3GNN/train_hyperbolic.py",
+  "codePath": "train_hyperbolic.py",
+  "git": {
+    "remote": "https://github.com/frAndreSilhouette/H3GNN.git",
+    "commit": "d5c7833146cdfe92a5438008107a9fa22d120460"
+  },
+  "email": "frandre.yhj@outlook.com",
+  "root": "/root/H3GNN",
+  "host": "ZAK7WE",
+  "executable": "/root/miniconda3/envs/myconda/bin/python",
+  "codePathLocal": "train_hyperbolic.py",
+  "cpu_count": 48,
+  "cpu_count_logical": 12,
+  "disk": {
+    "/": {
+      "total": "536870912000",
+      "used": "139706335232"
+    }
+  },
+  "memory": {
+    "total": "66571993088"
+  },
+  "cpu": {
+    "count": 48,
+    "countLogical": 12
+  }
+}

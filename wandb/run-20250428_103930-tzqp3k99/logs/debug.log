@@ -1,0 +1,23 @@
+2025-04-28 10:39:30,022 INFO    MainThread:45570 [wandb_setup.py:_flush():68] Current SDK version is 0.19.10
+2025-04-28 10:39:30,022 INFO    MainThread:45570 [wandb_setup.py:_flush():68] Configure stats pid to 45570
+2025-04-28 10:39:30,022 INFO    MainThread:45570 [wandb_setup.py:_flush():68] Loading settings from /root/.config/wandb/settings
+2025-04-28 10:39:30,022 INFO    MainThread:45570 [wandb_setup.py:_flush():68] Loading settings from /root/H3GNN/wandb/settings
+2025-04-28 10:39:30,022 INFO    MainThread:45570 [wandb_setup.py:_flush():68] Loading settings from environment variables
+2025-04-28 10:39:30,022 INFO    MainThread:45570 [wandb_init.py:setup_run_log_directory():724] Logging user logs to /root/H3GNN/wandb/run-20250428_103930-tzqp3k99/logs/debug.log
+2025-04-28 10:39:30,022 INFO    MainThread:45570 [wandb_init.py:setup_run_log_directory():725] Logging internal logs to /root/H3GNN/wandb/run-20250428_103930-tzqp3k99/logs/debug-internal.log
+2025-04-28 10:39:30,022 INFO    MainThread:45570 [wandb_init.py:init():852] calling init triggers
+2025-04-28 10:39:30,023 INFO    MainThread:45570 [wandb_init.py:init():857] wandb.init called with sweep_config: {}
+config: {'city': 'CHI', 'model_name': 'H3GNN', 'manifold_name': 'poincare', 'ablation_study': 0, 'ablation_state': 0, 'input_dim': 64, 'nhid': 256, 'out_dim': 384, 'nhead': 3, 'out_nhead': 3, 'negative_K': 4, 'cuda': '0', 'multi_cuda': 0, 'lam_1': 1, 'lam_2': 2, 'lam_3': 3, 'layer_norm': False, 'add_self_loop': True, 'activation': 'relu', 'lr': 0.0001, 'wd': 1e-10, 'epochs': 10000, 'seed': 1, 'split': 0.8, 'user_number': 6444, 'poi_number': 5807, 'poi_class_number': 273, 'time_point_number': 770, '_wandb': {}}
+2025-04-28 10:39:30,023 INFO    MainThread:45570 [wandb_init.py:init():893] starting backend
+2025-04-28 10:39:30,023 INFO    MainThread:45570 [wandb_init.py:init():897] sending inform_init request
+2025-04-28 10:39:30,031 INFO    MainThread:45570 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-04-28 10:39:30,031 INFO    MainThread:45570 [wandb_init.py:init():907] backend started and connected
+2025-04-28 10:39:30,034 INFO    MainThread:45570 [wandb_init.py:init():1002] updated telemetry
+2025-04-28 10:39:30,043 INFO    MainThread:45570 [wandb_init.py:init():1026] communicating run to backend with 90.0 second timeout
+2025-04-28 10:39:31,120 INFO    MainThread:45570 [wandb_init.py:init():1101] starting run threads in backend
+2025-04-28 10:39:31,314 INFO    MainThread:45570 [wandb_run.py:_console_start():2566] atexit reg
+2025-04-28 10:39:31,315 INFO    MainThread:45570 [wandb_run.py:_redirect():2414] redirect: wrap_raw
+2025-04-28 10:39:31,315 INFO    MainThread:45570 [wandb_run.py:_redirect():2483] Wrapping output streams.
+2025-04-28 10:39:31,315 INFO    MainThread:45570 [wandb_run.py:_redirect():2506] Redirects installed.
+2025-04-28 10:39:31,318 INFO    MainThread:45570 [wandb_init.py:init():1147] run started, returning control to user process
+2025-04-28 10:39:31,358 INFO    MsgRouterThr:45570 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 2 handles.

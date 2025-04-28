@@ -1,0 +1,18 @@
+output/04281339_CHI_poincare_input_dim_64_hidden_dim_256_out_dim_384_multi_head_3+lambda_1_1+lambda_2_2+lambda_3_3_negative_K_4_multi_cuda_0_ablation_study_0_ablation_state_0.txt
+city name:  CHI
+the number of friendship hyperedge in raw dataset is: 18129
+the number of friendship hyperedge used for training is: 14503
+the number of check-in hyperedge is: 185819
+the number of trajectory hyperedge is: 6444
+There are 6444 user nodes in this hypergraph.
+There are 5807 POI nodes in this hypergraph.
+There are 273 POI category nodes in this hypergraph.
+There are 770 time-day nodes in this hypergraph.
+Traceback (most recent call last):
+  File "/root/H3GNN/train_hyperbolic.py", line 41, in <module>
+    model, optimizer,G = initialise(G, node_attr , args,node_type,edge_type)
+NameError: name 'initialise' is not defined
+Traceback (most recent call last):
+  File "/root/H3GNN/train_hyperbolic.py", line 41, in <module>
+    model, optimizer,G = initialise(G, node_attr , args,node_type,edge_type)
+NameError: name 'initialise' is not defined

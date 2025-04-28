@@ -1,0 +1,28 @@
+output/04281340_CHI_poincare_input_dim_64_hidden_dim_256_out_dim_384_multi_head_3+lambda_1_1+lambda_2_2+lambda_3_3_negative_K_4_multi_cuda_0_ablation_study_0_ablation_state_0.txt
+city name:  CHI
+the number of friendship hyperedge in raw dataset is: 18129
+the number of friendship hyperedge used for training is: 14503
+the number of check-in hyperedge is: 185819
+the number of trajectory hyperedge is: 6444
+There are 6444 user nodes in this hypergraph.
+There are 5807 POI nodes in this hypergraph.
+There are 273 POI category nodes in this hypergraph.
+There are 770 time-day nodes in this hypergraph.
+There are 206766 original hyperedges in this hypergraph.
+There are 219414 hyperedges in this hypergraph.
+Among them, 12648 are added self-loop hyperedges.
+/root/miniconda3/envs/myconda/lib/python3.10/site-packages/torch/cuda/__init__.py:654: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+895528
+Traceback (most recent call last):
+  File "/root/H3GNN/train_hyperbolic.py", line 41, in <module>
+    G, node_attr, friend_edge_train, friend_edge_test, test_label,friend_edge_train_all, friend_edge_train_all_label,k =fetch_data(args)
+  File "/root/H3GNN/prepare.py", line 262, in initialise
+    edge_to_v[i] = torch.tensor(edge_to_v[i], dtype=torch.long).to(device)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/root/H3GNN/train_hyperbolic.py", line 41, in <module>
+    G, node_attr, friend_edge_train, friend_edge_test, test_label,friend_edge_train_all, friend_edge_train_all_label,k =fetch_data(args)
+  File "/root/H3GNN/prepare.py", line 262, in initialise
+    edge_to_v[i] = torch.tensor(edge_to_v[i], dtype=torch.long).to(device)
+KeyboardInterrupt

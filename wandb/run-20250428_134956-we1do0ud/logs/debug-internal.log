@@ -1,0 +1,16 @@
+{"time":"2025-04-28T13:49:56.749711444Z","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/root/H3GNN/wandb/run-20250428_134956-we1do0ud/logs/debug-core.log"}
+{"time":"2025-04-28T13:49:57.517358379Z","level":"INFO","msg":"created new stream","id":"we1do0ud"}
+{"time":"2025-04-28T13:49:57.517429409Z","level":"INFO","msg":"stream: started","id":"we1do0ud"}
+{"time":"2025-04-28T13:49:57.517462298Z","level":"INFO","msg":"writer: Do: started","stream_id":"we1do0ud"}
+{"time":"2025-04-28T13:49:57.517575519Z","level":"INFO","msg":"handler: started","stream_id":"we1do0ud"}
+{"time":"2025-04-28T13:49:57.517654644Z","level":"INFO","msg":"sender: started","stream_id":"we1do0ud"}
+{"time":"2025-04-28T13:49:57.878441298Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-28T14:01:30.209561357Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/frandre-yhj-renmin-university-of-china/hypergraph/we1do0ud/file_stream\": dial tcp 35.186.228.49:443: connect: connection timed out"}
+{"time":"2025-04-28T14:03:13.085242293Z","level":"INFO","msg":"stream: closing","id":"we1do0ud"}
+{"time":"2025-04-28T14:03:13.085296875Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-28T14:03:13.085400449Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-28T14:03:14.602395381Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-28T14:03:15.584649103Z","level":"INFO","msg":"handler: closed","stream_id":"we1do0ud"}
+{"time":"2025-04-28T14:03:15.584720284Z","level":"INFO","msg":"sender: closed","stream_id":"we1do0ud"}
+{"time":"2025-04-28T14:03:15.584701731Z","level":"INFO","msg":"writer: Close: closed","stream_id":"we1do0ud"}
+{"time":"2025-04-28T14:03:15.584827907Z","level":"INFO","msg":"stream: closed","id":"we1do0ud"}

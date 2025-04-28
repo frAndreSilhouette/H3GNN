@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/root/H3GNN/train_hyperbolic.py", line 25, in <module>
+    now_time=time.strftime("%m%d%H%M", time.localtime()) # Month, day, hour, and minute
+NameError: name 'time' is not defined
+Traceback (most recent call last):
+  File "/root/H3GNN/train_hyperbolic.py", line 25, in <module>
+    now_time=time.strftime("%m%d%H%M", time.localtime()) # Month, day, hour, and minute
+NameError: name 'time' is not defined

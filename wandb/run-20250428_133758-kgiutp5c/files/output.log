@@ -1,0 +1,9 @@
+output/04281338_CHI_poincare_input_dim_64_hidden_dim_256_out_dim_384_multi_head_3+lambda_1_1+lambda_2_2+lambda_3_3_negative_K_4_multi_cuda_0_ablation_study_0_ablation_state_0.txt
+Traceback (most recent call last):
+  File "/root/H3GNN/train_hyperbolic.py", line 40, in <module>
+    G, node_attr, friend_edge_train, friend_edge_test, test_label,friend_edge_train_all, friend_edge_train_all_label,k =fetch_data(args)
+NameError: name 'fetch_data' is not defined
+Traceback (most recent call last):
+  File "/root/H3GNN/train_hyperbolic.py", line 40, in <module>
+    G, node_attr, friend_edge_train, friend_edge_test, test_label,friend_edge_train_all, friend_edge_train_all_label,k =fetch_data(args)
+NameError: name 'fetch_data' is not defined
